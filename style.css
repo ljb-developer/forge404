@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: Forge;
+    src: url('fonts/ocr-a-std.ttf') format('truetype');
+  }
+
+  body {
+    margin: 0; /* Reset default margin */
+    width: 100vw;
+    height: 100vh; /* Use viewport height instead of percentage */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Forge;
+    background-color: black;
+}
+
+
+h1 {
+
+    font-family: Forge;
+    font-size: 32px;
+    color: #fff;
+}
+
+img {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+  #countdown {
+    height: auto; /* or 100% if it needs to fill its parent */
+    width: auto; /* or 100% if it needs to fill its parent */
+    font-size: 70px;
+    text-align: center;
+    font-family: Forge;
+    color: #fff;
+  }
